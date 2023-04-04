@@ -7,15 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/140LzhkVU4syVQA42-3v3Tk9u3froRMFf
 """
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-from babel.numbers import format_currency
-import streamlit as st
-
-sns.set(style='dark')
-
 df = pd.read_csv('all_data.csv')
 
 # helper function
